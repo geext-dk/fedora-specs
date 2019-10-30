@@ -1,6 +1,6 @@
 Name:           sway
-Version:        1.1.1
-Release:        3%{?dist}
+Version:        1.2
+Release:        1%{?dist}
 Summary:        sway is an i3-compatible Wayland compositor
 
 License:        MIT
@@ -83,8 +83,12 @@ Recommends:     swaybg
 %{_mandir}/man5/sway-output.5.*
 %{_mandir}/man5/swaynag.5.*
 %{_mandir}/man7/sway-ipc.7.*
+%{_mandir}/man7/swaybar-protocol.7.*
 
 %changelog
+* Sat Sep 14 2019 Denis Karpovskiy <geext29@gmail.com> - 1.2-1
+- Update to 1.2
+
 * Wed Jun 19 2019 Denis Karpovskiy <geext29@gmail.com> - 1.1.1-3
 - Add English README
 
